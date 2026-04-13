@@ -20,7 +20,7 @@ export const Dashboard = () => {
 
           {/* Title */}
           <div className="text-center mb-6 mt-2">
-            <h2 className="text-2xl md:text-3xl font-extrabold text-[#0A428C] mb-3
+            <h2 className="text-2xl md:text-3xl font-extrabold text-brand-blue mb-3
                            bg-white/85 inline-block px-8 py-2.5 rounded-2xl
                            backdrop-blur-md border border-white/60 drop-shadow-sm">
               Hub Điều Hướng Module Theo Kiến Trúc IMMIS

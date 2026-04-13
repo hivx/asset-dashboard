@@ -5,7 +5,7 @@ export const ModuleCard: React.FC<{ item: ModuleItem }> = ({ item }) => {
   return (
     <div className="flex items-center p-3 bg-white/80 backdrop-blur-md rounded-xl shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-200 cursor-pointer border-[1.5px] border-white">
       
-      <div className={`w-10 h-10 rounded-lg text-white mr-3.5 flex items-center justify-center flex-shrink-0 shadow-inner ${item.iconBg}`}>
+      <div className={`w-10 h-10 rounded-lg text-white mr-3.5 flex items-center justify-center shrink-0 shadow-inner ${item.iconBg}`}>
         {item.icon}
       </div>
       
