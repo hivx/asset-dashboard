@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@utility glass-panel {
+  /* Nền trắng trong suốt 40% */
+  background: rgba(255, 255, 255, 0.4);
+  /* Độ mờ của background phía sau */
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  /* Viền trắng mờ tạo độ bắt sáng của kính */
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  /* Đổ bóng mềm */
+  box-shadow: 0 8px 32px 0 rgba(0, 32, 90, 0.1);
+}
+
+@utility glass-header {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}

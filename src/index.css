@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Bạn có thể thêm CSS tùy chỉnh ở dưới nếu cần */
+@theme {
+  --color-brand-blue: #0A428C; /* Ví dụ định nghĩa thêm biến màu theo hệ thống của bệnh viện */
+}
